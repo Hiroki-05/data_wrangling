@@ -6,5 +6,3 @@ v3 <- c(1101:1126)
 data_test <- data.frame(alpha = alpha, ten=v1, hundred = v2, thousand = v3)
 
 shufle <- sample_frac(data_test,1,replace = TRUE)
-
-print(shufle)
